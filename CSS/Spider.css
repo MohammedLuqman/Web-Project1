@@ -1,0 +1,325 @@
+*
+{
+  margin: 0;
+  padding: 0%;
+  border: 0;
+  font-family:system-ui, -apple-system,'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body
+{
+  background-image: url(../IMG/background4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: sticky;
+  top: 0;
+}
+.body4
+{
+  background-image: url(../IMG/background4.jpg);
+  backdrop-filter: blur(10px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: sticky;
+  top: 0;
+}
+nav
+{
+  top: 0;
+  padding: 12px;
+  position: sticky;
+  overflow: hidden;
+  background-color:rgba(0,0, 0,0.8);
+  
+}
+nav ul li 
+{
+  display: inline;
+  color:black; 
+  margin: 5px;
+}
+.a
+{
+  float: right;
+  text-align: center;
+  padding-inline: 8px;
+  font-size: large;
+}
+nav li a
+{
+  
+  margin-right: 14px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+nav li a:hover
+{
+  font-size: larger;
+  color:rgb(66, 184, 183);
+  transition: ease-out 0.3s;
+}
+h1
+{
+ text-align: center;
+ color: white;
+}
+.img
+{
+  width: 60px;
+  filter: brightness(100%);
+}
+form 
+{
+  width: 40%;
+  background-color:transparent;
+  backdrop-filter:blur(10px);
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.3);
+  box-shadow: 1px 1px 20px rgba(0, 0,0,0.8);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 legend
+{
+  width: 20px;
+  text-align: center;
+}
+label
+{
+  color:black;
+}
+::placeholder
+{
+  color:white
+}
+input
+{
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  border-color: rgb(66, 184, 183);
+  background-color: transparent;
+  border-radius: 5px;
+}
+.btn
+{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color:rgba(0,0, 0,1);
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+}
+.link
+{
+  color: #fff;
+  text-decoration: none;
+}
+input:hover
+{
+  color: white;
+  transition: ease-in 0.3s;
+}
+nav2
+{
+  background-color:rgba(0,0, 0,0.8);
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  padding: 1px;
+  position: fixed;
+}
+nav2 ul li p
+{ 
+  font-weight: bold;
+  padding: 6px;
+  color: white;
+  text-align: center;
+}
+
+
+/*Page Two*/
+.pro 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+}
+.pro img 
+{
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  background-color: rgba(255,255,255,0.3);
+  border: 2px solid rgba(0,0,0,0.1);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.dis
+{
+  display: grid;
+  grid-template-columns: repeat(3 , 0.5fr);
+  margin-top: 40px;
+  text-align: center;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+.guide
+{
+  background-color:rgba(0, 0,0,0.8);
+  color: white;
+  padding: 30px 15px;
+  border-radius: 5px; 
+}
+.button3
+{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: rgb(66, 184, 183);
+  border-radius: 5px;
+  cursor: pointer;
+}
+span
+{
+  color: red;
+}
+
+
+/*Page three*/
+form1 
+{
+  margin-top: 0.5%;
+  width: 30%;
+  background-color:rgba(0,0,0,0.8);
+  backdrop-filter:blur(8px);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px rgba(0,0,0,0.8);
+  position: absolute;
+  top: 50%;
+  right: 40%;
+  transform: translate(-60%, -50%);
+}
+.h1
+{
+  color:white;
+  text-align: center;
+}
+label2
+{
+  display: inline;
+  color:white;
+}
+::placeholder
+{
+  color:white;
+}
+.input2
+{
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  border-color: none;
+  background-color: rgb(255, 255, 255,0.4);
+  border-radius: 5px;
+}
+.button2
+{
+  text-align: left;
+  width: 40%;
+  padding: 10px;
+  border: none;
+  background-color: rgb(66, 184, 183);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.link
+{
+  color:white;
+  text-decoration: none;
+}
+input:hover
+{
+  background-color:black;
+  border:2px solid rgb(66, 184, 183);
+  color: white;
+  transition: ease-in 0.3s;
+}
+textarea
+{
+  padding: 10px;
+  color:white;
+  background-color:rgba(255,255,255,0.4);
+  width: 100%;
+  border-radius: 5px;
+}
+textarea:hover
+{
+  border:2px solid rgb(66, 184, 183);
+  background-color:black;
+  transition: ease-in 0.3s;
+}
+.map
+{
+ text-align: center;
+ margin-left: 60%;
+ margin-right: 10%;
+ margin-top: 2.5%;
+ padding: 14px;
+ border:2px solid black ; 
+ border-radius: 24px; 
+ background-color:rgba(0, 0,0,0.8);
+}
+.grow 
+{ 
+transition: all .4s ease-in-out; 
+}
+.grow:hover 
+{ 
+transform: scale(1.1); 
+}
+h3
+{
+ color: white;
+}
+
+
+/*Page four*/
+.see1
+{
+  text-align: center;
+  margin-top: 5%;
+  margin-right: 12%;
+  margin-left: 12%;
+  padding: 10%;
+  background-color: rgba(0,0,0,0.8);
+  border: 2px solid rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+.h2
+{
+  color:rgb(66, 184, 183);
+}
+.png
+{
+  margin-right: 4%;
+  float: left;
+  margin-top: 4%;
+  margin-left: 10%;
+}
+.p
+{
+  color: white;
+}
+.i
+{
+  padding: 1%;
+  color:rgb(66, 184, 183);
+}
